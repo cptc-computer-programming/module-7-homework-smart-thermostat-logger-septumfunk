@@ -34,7 +34,7 @@ for i in range(1, num_readings + 1):
 
 average_temp = total_temp / num_readings
 
-print("Smart Thermostat Summary\n------------------------")
+print("\nSmart Thermostat Summary\n------------------------")
 print(f"Average temperature: {average_temp:.1f}") # I like f strings
 print("Readings below comfort range:", too_cold_count)
 print("Readings above comfort range:", too_warm_count)
